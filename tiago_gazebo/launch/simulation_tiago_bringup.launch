@@ -20,7 +20,7 @@
   </node>
 
   <!-- TF lookup -->
-  <node pkg="tf_lookup" type="tf_lookup" name="tf_lookup" output="screen"/>
+  <!--node pkg="tf_lookup" type="tf_lookup" name="tf_lookup" output="screen"/-->
 
   <!-- Twist mux -->
   <group if="$(arg public_sim)">

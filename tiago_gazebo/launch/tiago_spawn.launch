@@ -2,7 +2,6 @@
 <launch>
   <arg name="robot"  default="custom"/>
   <arg name="gzpose" default="-x 0 -y 0 -z 0.0 -R 0.0 -P 0.0 -Y 0.0"/>
-  <arg name="multi" default=""/>
   <arg name="model_name" default="tiago_$(arg robot)"/>
 
   <!-- PID gains -->
@@ -22,7 +21,6 @@
   <!-- Robot model -->
   <include file="$(find tiago_description)/robots/upload_tiago.launch">
     <arg name="robot" value="$(arg robot)"/>
-    <arg name="multi"  value="$(arg multi)"/>
   </include>
 
   <!-- Spawn robot in Gazebo -->
