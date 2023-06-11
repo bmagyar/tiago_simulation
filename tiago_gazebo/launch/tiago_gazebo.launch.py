@@ -129,6 +129,6 @@ def generate_launch_description():
 
     ld.add_action(moveit_arg)
     ld.add_action(move_group)
-    ld.add_action(tuck_arm)
+    # ld.add_action(tuck_arm)
 
     return ld
