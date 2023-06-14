@@ -67,7 +67,7 @@ def generate_launch_description():
     )
 
     world_name_arg = DeclareLaunchArgument(
-        'world_name', default_value='pal_office',
+        'world_name', default_value='empty',
         description="Specify world name, we'll convert to full path"
     )
 
