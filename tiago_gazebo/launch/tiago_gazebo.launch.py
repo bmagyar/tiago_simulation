@@ -124,11 +124,11 @@ def generate_launch_description():
     ld.add_action(tiago_spawn)
     ld.add_action(tiago_bringup)
 
-    ld.add_action(navigation_arg)
-    ld.add_action(navigation)
+    # ld.add_action(navigation_arg)
+    # ld.add_action(navigation)
 
-    ld.add_action(moveit_arg)
-    ld.add_action(move_group)
+    # ld.add_action(moveit_arg)
+    # ld.add_action(move_group)
     # ld.add_action(tuck_arm)
 
     return ld
